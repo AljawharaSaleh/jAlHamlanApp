@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B037F0226A4A8750094DAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B037F0126A4A8750094DAA3 /* AppDelegate.swift */; };
+		2B037F0426A4A8750094DAA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B037F0326A4A8750094DAA3 /* SceneDelegate.swift */; };
+		2B037F0626A4A8750094DAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B037F0526A4A8750094DAA3 /* ViewController.swift */; };
+		2B037F0926A4A8750094DAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B037F0726A4A8750094DAA3 /* Main.storyboard */; };
+		2B037F0B26A4A8760094DAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B037F0A26A4A8760094DAA3 /* Assets.xcassets */; };
+		2B037F0E26A4A8760094DAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B037F0C26A4A8760094DAA3 /* LaunchScreen.storyboard */; };
+		2B037F1926A4A8760094DAA3 /* jAlHamlanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B037F1826A4A8760094DAA3 /* jAlHamlanAppTests.swift */; };
+		2B037F2426A4A8760094DAA3 /* jAlHamlanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B037F2326A4A8760094DAA3 /* jAlHamlanAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B037F1526A4A8760094DAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B037EF626A4A8750094DAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B037EFD26A4A8750094DAA3;
+			remoteInfo = jAlHamlanApp;
+		};
+		2B037F2026A4A8760094DAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B037EF626A4A8750094DAA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B037EFD26A4A8750094DAA3;
+			remoteInfo = jAlHamlanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B037EFE26A4A8750094DAA3 /* jAlHamlanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jAlHamlanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B037F0126A4A8750094DAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B037F0326A4A8750094DAA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B037F0526A4A8750094DAA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B037F0826A4A8750094DAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B037F0A26A4A8760094DAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B037F0D26A4A8760094DAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B037F0F26A4A8760094DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B037F1426A4A8760094DAA3 /* jAlHamlanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jAlHamlanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B037F1826A4A8760094DAA3 /* jAlHamlanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jAlHamlanAppTests.swift; sourceTree = "<group>"; };
+		2B037F1A26A4A8760094DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B037F1F26A4A8760094DAA3 /* jAlHamlanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jAlHamlanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B037F2326A4A8760094DAA3 /* jAlHamlanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jAlHamlanAppUITests.swift; sourceTree = "<group>"; };
+		2B037F2526A4A8760094DAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B037EFB26A4A8750094DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1126A4A8760094DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1C26A4A8760094DAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B037EF526A4A8750094DAA3 = {
+			isa = PBXGroup;
+			children = (
+				2B037F0026A4A8750094DAA3 /* jAlHamlanApp */,
+				2B037F1726A4A8760094DAA3 /* jAlHamlanAppTests */,
+				2B037F2226A4A8760094DAA3 /* jAlHamlanAppUITests */,
+				2B037EFF26A4A8750094DAA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B037EFF26A4A8750094DAA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B037EFE26A4A8750094DAA3 /* jAlHamlanApp.app */,
+				2B037F1426A4A8760094DAA3 /* jAlHamlanAppTests.xctest */,
+				2B037F1F26A4A8760094DAA3 /* jAlHamlanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B037F0026A4A8750094DAA3 /* jAlHamlanApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B037F0126A4A8750094DAA3 /* AppDelegate.swift */,
+				2B037F0326A4A8750094DAA3 /* SceneDelegate.swift */,
+				2B037F0526A4A8750094DAA3 /* ViewController.swift */,
+				2B037F0726A4A8750094DAA3 /* Main.storyboard */,
+				2B037F0A26A4A8760094DAA3 /* Assets.xcassets */,
+				2B037F0C26A4A8760094DAA3 /* LaunchScreen.storyboard */,
+				2B037F0F26A4A8760094DAA3 /* Info.plist */,
+			);
+			path = jAlHamlanApp;
+			sourceTree = "<group>";
+		};
+		2B037F1726A4A8760094DAA3 /* jAlHamlanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B037F1826A4A8760094DAA3 /* jAlHamlanAppTests.swift */,
+				2B037F1A26A4A8760094DAA3 /* Info.plist */,
+			);
+			path = jAlHamlanAppTests;
+			sourceTree = "<group>";
+		};
+		2B037F2226A4A8760094DAA3 /* jAlHamlanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B037F2326A4A8760094DAA3 /* jAlHamlanAppUITests.swift */,
+				2B037F2526A4A8760094DAA3 /* Info.plist */,
+			);
+			path = jAlHamlanAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B037EFD26A4A8750094DAA3 /* jAlHamlanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B037F2826A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanApp" */;
+			buildPhases = (
+				2B037EFA26A4A8750094DAA3 /* Sources */,
+				2B037EFB26A4A8750094DAA3 /* Frameworks */,
+				2B037EFC26A4A8750094DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jAlHamlanApp;
+			productName = jAlHamlanApp;
+			productReference = 2B037EFE26A4A8750094DAA3 /* jAlHamlanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B037F1326A4A8760094DAA3 /* jAlHamlanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B037F2B26A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanAppTests" */;
+			buildPhases = (
+				2B037F1026A4A8760094DAA3 /* Sources */,
+				2B037F1126A4A8760094DAA3 /* Frameworks */,
+				2B037F1226A4A8760094DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B037F1626A4A8760094DAA3 /* PBXTargetDependency */,
+			);
+			name = jAlHamlanAppTests;
+			productName = jAlHamlanAppTests;
+			productReference = 2B037F1426A4A8760094DAA3 /* jAlHamlanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B037F1E26A4A8760094DAA3 /* jAlHamlanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B037F2E26A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanAppUITests" */;
+			buildPhases = (
+				2B037F1B26A4A8760094DAA3 /* Sources */,
+				2B037F1C26A4A8760094DAA3 /* Frameworks */,
+				2B037F1D26A4A8760094DAA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B037F2126A4A8760094DAA3 /* PBXTargetDependency */,
+			);
+			name = jAlHamlanAppUITests;
+			productName = jAlHamlanAppUITests;
+			productReference = 2B037F1F26A4A8760094DAA3 /* jAlHamlanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B037EF626A4A8750094DAA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2B037EFD26A4A8750094DAA3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2B037F1326A4A8760094DAA3 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2B037EFD26A4A8750094DAA3;
+					};
+					2B037F1E26A4A8760094DAA3 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2B037EFD26A4A8750094DAA3;
+					};
+				};
+			};
+			buildConfigurationList = 2B037EF926A4A8750094DAA3 /* Build configuration list for PBXProject "jAlHamlanApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B037EF526A4A8750094DAA3;
+			productRefGroup = 2B037EFF26A4A8750094DAA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B037EFD26A4A8750094DAA3 /* jAlHamlanApp */,
+				2B037F1326A4A8760094DAA3 /* jAlHamlanAppTests */,
+				2B037F1E26A4A8760094DAA3 /* jAlHamlanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B037EFC26A4A8750094DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B037F0E26A4A8760094DAA3 /* LaunchScreen.storyboard in Resources */,
+				2B037F0B26A4A8760094DAA3 /* Assets.xcassets in Resources */,
+				2B037F0926A4A8750094DAA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1226A4A8760094DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1D26A4A8760094DAA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B037EFA26A4A8750094DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B037F0626A4A8750094DAA3 /* ViewController.swift in Sources */,
+				2B037F0226A4A8750094DAA3 /* AppDelegate.swift in Sources */,
+				2B037F0426A4A8750094DAA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1026A4A8760094DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B037F1926A4A8760094DAA3 /* jAlHamlanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B037F1B26A4A8760094DAA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B037F2426A4A8760094DAA3 /* jAlHamlanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B037F1626A4A8760094DAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B037EFD26A4A8750094DAA3 /* jAlHamlanApp */;
+			targetProxy = 2B037F1526A4A8760094DAA3 /* PBXContainerItemProxy */;
+		};
+		2B037F2126A4A8760094DAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B037EFD26A4A8750094DAA3 /* jAlHamlanApp */;
+			targetProxy = 2B037F2026A4A8760094DAA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B037F0726A4A8750094DAA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B037F0826A4A8750094DAA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B037F0C26A4A8760094DAA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B037F0D26A4A8760094DAA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B037F2626A4A8760094DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B037F2726A4A8760094DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B037F2926A4A8760094DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B037F2A26A4A8760094DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B037F2C26A4A8760094DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jAlHamlanApp.app/jAlHamlanApp";
+			};
+			name = Debug;
+		};
+		2B037F2D26A4A8760094DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jAlHamlanApp.app/jAlHamlanApp";
+			};
+			name = Release;
+		};
+		2B037F2F26A4A8760094DAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jAlHamlanApp;
+			};
+			name = Debug;
+		};
+		2B037F3026A4A8760094DAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jAlHamlanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jAlHamlan.com.jAlHamlanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jAlHamlanApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B037EF926A4A8750094DAA3 /* Build configuration list for PBXProject "jAlHamlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B037F2626A4A8760094DAA3 /* Debug */,
+				2B037F2726A4A8760094DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B037F2826A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B037F2926A4A8760094DAA3 /* Debug */,
+				2B037F2A26A4A8760094DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B037F2B26A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B037F2C26A4A8760094DAA3 /* Debug */,
+				2B037F2D26A4A8760094DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B037F2E26A4A8760094DAA3 /* Build configuration list for PBXNativeTarget "jAlHamlanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B037F2F26A4A8760094DAA3 /* Debug */,
+				2B037F3026A4A8760094DAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B037EF626A4A8750094DAA3 /* Project object */;
+}
